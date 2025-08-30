@@ -4,6 +4,9 @@
 # Bash
 bash main.sh
 
+# C
+gcc main.c -o main && ./main 
+
 # Python
 python main.py
 
