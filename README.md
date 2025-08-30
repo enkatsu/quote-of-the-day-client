@@ -7,6 +7,9 @@ python main.py
 # Ruby
 rb main.rb
 
+# Perl
+perl main.pl
+
 # Node.js
 node main.js
 
