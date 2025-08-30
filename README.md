@@ -13,6 +13,9 @@ perl main.pl
 # Node.js
 node main.js
 
+# Java
+javac Main.java && java Main
+
 # Rust
 rustc main.rs && ./main
 
