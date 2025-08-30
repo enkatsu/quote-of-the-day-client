@@ -13,7 +13,7 @@ gcc main.c -o main && ./main
 python main.py
 
 # Ruby
-rb main.rb
+ruby main.rb
 
 # Perl
 perl main.pl
