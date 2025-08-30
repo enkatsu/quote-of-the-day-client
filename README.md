@@ -1,5 +1,7 @@
 # Quote of the Day Client
 
+[RFC](https://datatracker.ietf.org/doc/html/rfc865)
+
 ```sh
 # Bash
 bash main.sh
