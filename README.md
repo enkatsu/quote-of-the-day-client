@@ -29,4 +29,7 @@ rustc main.rs && ./main
 
 # Processing
 processing-java --sketch=${PWD}/processing --run
+
+# Pure Data
+open main.pd
 ```
