@@ -1,6 +1,9 @@
 # Quote of the Day Client
 
 ```sh
+# Bash
+bash main.sh
+
 # Python
 python main.py
 
