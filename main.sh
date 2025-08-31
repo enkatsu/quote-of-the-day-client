@@ -1,4 +1,4 @@
 # !/bin/bash
 
-nc -v localhost 17
-# nc -v djxmmx.net 17
+cat | nc localhost 17
+# cat | nc djxmmx.net 17
