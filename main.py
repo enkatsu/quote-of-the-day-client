@@ -1,6 +1,7 @@
 import socket
 
-HOST = 'djxmmx.net'
+HOST = 'localhost'
+# HOST = 'djxmmx.net'
 PORT = 17
 BUFSIZE = 512
 

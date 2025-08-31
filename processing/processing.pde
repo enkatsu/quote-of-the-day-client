@@ -1,6 +1,7 @@
 import processing.net.*;
 
-String HOST = "djxmmx.net";
+String HOST = "localhost";
+// String HOST = "djxmmx.net";
 int PORT = 17;
 int BUFSIZE = 512;
 Client client;

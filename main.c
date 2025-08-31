@@ -7,7 +7,8 @@
 #include <sys/types.h>
 #include <unistd.h>
 
-const char* HOST = "djxmmx.net";
+const char* HOST = "localhost";
+// const char* HOST = "djxmmx.net";
 const char* PORT_STR = "17";
 const int BUFFER_SIZE = 512;
 
@@ -19,7 +20,7 @@ int main() {
     char buffer[BUFFER_SIZE];
 
     memset(&hints, 0, sizeof(hints));
-    hints.ai_family = AF_UNSPEC;
+    hints.ai_family = AF_INET;
     hints.ai_socktype = SOCK_STREAM;
 
     status = getaddrinfo(HOST, PORT_STR, &hints, &res);

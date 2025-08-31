@@ -1,6 +1,7 @@
 const net = require('node:net');
 
-const HOST = 'djxmmx.net';
+const HOST = 'localhost';
+// const HOST = 'djxmmx.net';
 const PORT = 17;
 
 const client = net.createConnection({ host: HOST, port: PORT });

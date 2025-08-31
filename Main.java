@@ -4,7 +4,8 @@ import java.net.InetAddress;
 import java.net.Socket;
 
 public class Main {
-    static final String HOST = "djxmmx.net";
+    static final String HOST = "localhost";
+    // static final String HOST = "djxmmx.net";
     static final int PORT = 17;
     static final int BUFSIZE = 512;
 

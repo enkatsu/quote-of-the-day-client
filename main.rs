@@ -2,7 +2,8 @@ use std::net::TcpStream;
 use std::io::Read;
 
 fn main() {
-    const HOST: &str = "djxmmx.net";
+    const HOST: &str = "localhost";
+    // const HOST: &str = "djxmmx.net";
     const PORT: i32 = 17;
     const BUFSIZE: usize = 512;
 
