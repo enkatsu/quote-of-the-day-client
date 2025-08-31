@@ -15,7 +15,7 @@ while true; do printf '"The medium is the message."\r\nHerbert Marshall McLuhan 
 bash main.sh
 
 # C
-gcc main.c -o main && ./main 
+gcc main.c -o main && ./main
 
 # Python
 python main.py

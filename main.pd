@@ -3,7 +3,7 @@
 #X obj 19 99 netsend -b;
 #X obj 69 138 sel 0;
 #X obj 104 169 fudiparse;
-#X listbox 104 251 53 0 0 0 - - - 12;
+#X listbox 104 251 65 0 0 0 - - - 16;
 #X obj 104 222 list prepend;
 #X obj 69 169 bng 25 250 50 0 empty empty empty 17 7 0 10 #333333 #eeeeee #e4e4e4;
 #X obj 19 13 loadbang;
@@ -18,5 +18,5 @@
 #X connect 5 0 4 0;
 #X connect 6 0 5 1;
 #X connect 7 0 9 0;
-#X connect 7 0 8 0;
+#X connect 8 0 1 0;
 #X connect 9 0 1 0;

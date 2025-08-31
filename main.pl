@@ -14,6 +14,11 @@ my $sock = IO::Socket::INET->new(
 
 die "IO::Socket : $!" unless $sock;
 
-print <$sock>;
+while (my $line = <$sock>) {
+    chomp $line;
+    $line =~ s/\r//g;
+    $line =~ s/\x00//g;
+    print "$line\n";
+}
 
 close($sock);
